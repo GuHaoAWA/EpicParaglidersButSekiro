@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.guhao.sekiro.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "sekiro.refmap.json",
+  "mixins": [
+    "MixinHurtEvent",
+    "MixinPlayerPatch",
+    "REReRegisterSkillMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}
